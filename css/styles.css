@@ -191,14 +191,14 @@ label {
     border: 1px solid gray;
   }
 
-  /*  td,
-thead,
-tbody,
-tr {
+  td,
+  thead,
+  tbody,
+  tr {
     width: auto;
   }
 
-  tr {
+  /*tr {
     display: table-row;
   }
 
