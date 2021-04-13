@@ -170,11 +170,11 @@ label {
     display: none;
   }
 
-  /*.text-long {
+  .text-long {
     display: inline;
   }
 
-  #col1:checked ~ table label[for=col2] {
+  /*#col1:checked ~ table label[for=col2] {
     font-weight: bold;
   }
 
