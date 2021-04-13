@@ -59,7 +59,38 @@
     </div>
   </div>
 
+  <p>Change the viewport's width to alternate between tabs and table display:</p>
+  <input id="col1" type="radio" name="column" checked>
+  <input id="col2" type="radio" name="column">
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th><label for="col1" tabindex="1">Free</label></th>
+        <th><label for="col2" tabindex="2">Premium version</label></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Share</th>
+        <td id="cell11"><span class="text-short">Share photos</span><span class="text-long">Photos</span></td>
+        <td id="cell12"><span class="text-short">Share photos & videos</span><span class="text-long">Photos</span></td>
+      </tr>
+      <tr>
+        <th>Storage</th>
+        <td id="cell21"><span class="text-short">5 GB storage</span><span class="text-long">5 GBytes</span></td>
+        <td id="cell22"><span class="text-short">50 GB Storage</span><span class="text-long">50 GBytes</span></td>
+      </tr>
+      <tr id="row3">
+        <th>Support</th>
+        <td id="cell31"><span class="text-long">No</span></td>
+        <td id="cell32"><span class="text-short">Dedicated support</span><span class="text-long">Dedicated</span></td>
+      </tr>
+    </tbody>
+  </table>
+
   <section id="contact">
+
     <div class="overlay">
       <div class="containers">
 
