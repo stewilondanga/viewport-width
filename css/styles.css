@@ -161,8 +161,8 @@ label {
   display: none;
 }
 
-/*@media (min-width: 450px) {
-  #row3 {
+@media (min-width: 450px) {
+  /*#row3 {
     display: table-row;
   }
 
