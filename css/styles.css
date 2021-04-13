@@ -221,7 +221,7 @@ label {
   }
 }
 
-/*#col1, #col2 {
+#col1, #col2 {
   display: initial;
   position: absolute;
   left: -1000px;
@@ -230,7 +230,7 @@ label {
   bottom: initial;
 }
 
-* {
+/** {
   box-sizing: border-box;
 }
 
