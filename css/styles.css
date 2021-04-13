@@ -110,11 +110,11 @@ tr {
   height: 1.9em;
 }
 
-/*
 td, thead, tbody, tr {
   width: 100%;
 }
 
+/*
 thead th {
   border-bottom: 1px solid gray;
 }
