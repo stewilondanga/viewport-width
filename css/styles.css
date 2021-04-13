@@ -206,11 +206,11 @@ label {
     border-bottom: none;
   }
 
-  /*tbody tr th {
+  tbody tr th {
     display: table-cell;
   }
 
-  td {
+  /*td {
     position: relative;
     display: table-cell;
     border: 1px solid gray;
