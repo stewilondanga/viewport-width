@@ -202,11 +202,11 @@ label {
     display: table-row;
   }
 
-  /*thead th {
+  thead th {
     border-bottom: none;
   }
 
-  tbody tr th {
+  /*tbody tr th {
     display: table-cell;
   }
 
