@@ -216,11 +216,12 @@ label {
     border: 1px solid gray;
   }
 
-  /*label {
+  label {
     cursor: default;
   }
 }
-#col1, #col2 {
+
+/*#col1, #col2 {
   display: initial;
   position: absolute;
   left: -1000px;
