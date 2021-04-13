@@ -162,11 +162,11 @@ label {
 }
 
 @media (min-width: 450px) {
-  /*#row3 {
+  #row3 {
     display: table-row;
   }
 
-  .text-short {
+  /*.text-short {
     display: none;
   }
 
