@@ -122,7 +122,6 @@ tbody tr th {
   display: none;
 }
 
-/*
 td {
   position: absolute;
   left: 0;
@@ -134,6 +133,7 @@ td {
   white-space: nowrap;
 }
 
+/*
 label {
   cursor: pointer;
 }
