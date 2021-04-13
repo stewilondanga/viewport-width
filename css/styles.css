@@ -166,11 +166,11 @@ label {
     display: table-row;
   }
 
-  /*.text-short {
+  .text-short {
     display: none;
   }
 
-  .text-long {
+  /*.text-long {
     display: inline;
   }
 
