@@ -145,10 +145,11 @@ label {
   font-weight: normal;
 }
 
-/*#col2:checked ~ table #row3 {
+#col2:checked~table #row3 {
   display: table-row;
 }
 
+/*
 #col1:checked ~ table label[for=col2] {
   font-weight: normal;
 }
