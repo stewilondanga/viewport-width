@@ -149,11 +149,11 @@ label {
   display: table-row;
 }
 
-/*
-#col1:checked ~ table label[for=col2] {
+#col1:checked~table label[for=col2] {
   font-weight: normal;
 }
-#col1:checked ~ table td + td {
+
+/*#col1:checked ~ table td + td {
   display: none;
 }
 
