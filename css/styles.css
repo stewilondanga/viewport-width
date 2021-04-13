@@ -186,12 +186,12 @@ label {
     display: table-cell;
   }
 
-  /*table {
+  table {
     display: table;
     border: 1px solid gray;
   }
 
-  td,
+  /*  td,
 thead,
 tbody,
 tr {
