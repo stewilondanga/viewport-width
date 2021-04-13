@@ -174,11 +174,11 @@ label {
     display: inline;
   }
 
-  /*#col1:checked ~ table label[for=col2] {
+  #col1:checked~table label[for=col2] {
     font-weight: bold;
   }
 
-  #col2:checked ~ table label[for=col1] {
+  /*#col2:checked ~ table label[for=col1] {
     font-weight: bold;
   }
 
