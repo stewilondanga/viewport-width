@@ -99,13 +99,13 @@
   transition-delay: 0.4s;
 }
 
-/*
 table {
   position: relative;
   display: inline-block;
   border: 1px solid gray;
 }
 
+/*
 tr {
   position: relative;
   height: 1.9em;
