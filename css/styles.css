@@ -118,11 +118,11 @@ thead th {
   border-bottom: 1px solid gray;
 }
 
-/*
 tbody tr th {
   display: none;
 }
 
+/*
 td {
   position: absolute;
   left: 0;
