@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,138 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+table {
+  position: relative;
+  display: inline-block;
+  border: 1px solid gray;
+}
+
+tr {
+  position: relative;
+  height: 1.9em;
+}
+
+td, thead, tbody, tr {
+  width: 100%;
+}
+
+thead th {
+  border-bottom: 1px solid gray;
+}
+
+tbody tr th {
+  display: none;
+}
+
+td {
+  position: absolute;
+  left: 0;
+  display: block;
+  padding: 0.4em;
+  background: white;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+label {
+  cursor: pointer;
+}
+
+#row3 {
+  display: none;
+}
+
+#col2:checked ~ table label[for=col1] {
+  font-weight: normal;
+}
+#col2:checked ~ table #row3 {
+  display: table-row;
+}
+
+#col1:checked ~ table label[for=col2] {
+  font-weight: normal;
+}
+#col1:checked ~ table td + td {
+  display: none;
+}
+
+.text-long {
+  display: none;
+}
+
+@media (min-width: 450px) {
+  #row3 {
+    display: table-row;
+  }
+
+  .text-short {
+    display: none;
+  }
+
+  .text-long {
+    display: inline;
+  }
+
+  #col1:checked ~ table label[for=col2] {
+    font-weight: bold;
+  }
+
+  #col2:checked ~ table label[for=col1] {
+    font-weight: bold;
+  }
+
+  #col1:checked ~ table td + td {
+    display: table-cell;
+  }
+
+  table {
+    display: table;
+    border: 1px solid gray;
+  }
+
+  td,
+thead,
+tbody,
+tr {
+    width: auto;
+  }
+
+  tr {
+    display: table-row;
+  }
+
+  thead th {
+    border-bottom: none;
+  }
+
+  tbody tr th {
+    display: table-cell;
+  }
+
+  td {
+    position: relative;
+    display: table-cell;
+    border: 1px solid gray;
+  }
+
+  label {
+    cursor: default;
+  }
+}
+#col1, #col2 {
+  display: initial;
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+  right: initial;
+  bottom: initial;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 #contact h1 {
