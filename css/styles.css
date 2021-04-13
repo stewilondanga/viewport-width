@@ -105,12 +105,12 @@ table {
   border: 1px solid gray;
 }
 
-/*
 tr {
   position: relative;
   height: 1.9em;
 }
 
+/*
 td, thead, tbody, tr {
   width: 100%;
 }
