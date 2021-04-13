@@ -137,15 +137,15 @@ label {
   cursor: pointer;
 }
 
-/*
 #row3 {
   display: none;
 }
 
-#col2:checked ~ table label[for=col1] {
+#col2:checked~table label[for=col1] {
   font-weight: normal;
 }
-#col2:checked ~ table #row3 {
+
+/*#col2:checked ~ table #row3 {
   display: table-row;
 }
 
