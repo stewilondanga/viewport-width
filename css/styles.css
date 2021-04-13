@@ -153,11 +153,11 @@ label {
   font-weight: normal;
 }
 
-/*#col1:checked ~ table td + td {
+#col1:checked~table td+td {
   display: none;
 }
 
-.text-long {
+/*.text-long {
   display: none;
 }
 
