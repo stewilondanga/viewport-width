@@ -182,11 +182,11 @@ label {
     font-weight: bold;
   }
 
-  /*#col1:checked ~ table td + td {
+  #col1:checked~table td+td {
     display: table-cell;
   }
 
-  table {
+  /*table {
     display: table;
     border: 1px solid gray;
   }
